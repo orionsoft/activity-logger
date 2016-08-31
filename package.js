@@ -17,5 +17,4 @@ Package.onTest(function (api) {
   api.use('ecmascript')
   api.use('tinytest')
   api.use('orionsoft:activity-logger')
-  api.mainModule('activity-logger-tests.js')
 })
