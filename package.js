@@ -1,24 +1,21 @@
 Package.describe({
   name: 'orionsoft:activity-logger',
   version: '0.0.1',
-  // Brief, one-line summary of the package.
   summary: '',
-  // URL to the Git repository containing the source code for this package.
-  git: '',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
+  git: 'https://github.com/orionsoft/activity-logger',
   documentation: 'README.md'
-});
+})
 
-Package.onUse(function(api) {
-  api.versionsFrom('1.4.1.1');
-  api.use('ecmascript');
-  api.mainModule('activity-logger.js');
-});
+Package.onUse(function (api) {
+  api.versionsFrom('1.4.1.1')
+  api.use('ecmascript')
+  api.mainModule('client.js', 'client')
+  api.mainModule('server.js', 'server')
+})
 
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
-  api.use('orionsoft:activity-logger');
-  api.mainModule('activity-logger-tests.js');
-});
+Package.onTest(function (api) {
+  api.use('ecmascript')
+  api.use('tinytest')
+  api.use('orionsoft:activity-logger')
+  api.mainModule('activity-logger-tests.js')
+})
