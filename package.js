@@ -1,6 +1,6 @@
 Package.describe({
   name: 'orionsoft:activity-logger',
-  version: '0.0.3',
+  version: '0.0.4',
   summary: 'Save the actions that users do in your app',
   git: 'https://github.com/orionsoft/activity-logger',
   documentation: 'README.md'
