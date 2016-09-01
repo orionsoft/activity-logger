@@ -12,7 +12,7 @@ ejson@1.0.12
 geojson-utils@1.0.9
 id-map@1.0.8
 json@1.0.3
-local-test:orionsoft:activity-logger@0.0.3
+local-test:orionsoft:activity-logger@0.0.4
 logging@1.0.14
 meteor@1.2.17
 minimongo@1.0.17
@@ -21,7 +21,7 @@ modules-runtime@0.7.6
 mongo@1.1.0
 mongo-id@1.0.5
 ordered-dict@1.0.8
-orionsoft:activity-logger@0.0.3
+orionsoft:activity-logger@0.0.4
 promise@0.8.4
 random@1.0.10
 retry@1.0.8
