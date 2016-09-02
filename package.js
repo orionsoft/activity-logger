@@ -1,6 +1,6 @@
 Package.describe({
   name: 'orionsoft:activity-logger',
-  version: '0.0.5',
+  version: '0.0.6',
   summary: 'Save the actions that users do in your app',
   git: 'https://github.com/orionsoft/activity-logger',
   documentation: 'README.md'
@@ -9,6 +9,7 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('1.4.1.1')
   api.use('ecmascript')
+  api.use('random')
   api.mainModule('client.js', 'client')
   api.mainModule('server.js', 'server')
 })
